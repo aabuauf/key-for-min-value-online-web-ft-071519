@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-lowestPrice = 10000000
+lowestPrice = 1000
 lowestItem = ""
   name_hash.each do |item,price|
       if lowestPrice.to_i <= price.to_i
@@ -10,5 +10,5 @@ lowestItem = ""
         lowestItem = item
       end
   end
-  return lowestPrice
+  return lowestItem
 end
