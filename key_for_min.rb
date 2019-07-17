@@ -10,5 +10,5 @@ lowestItem = ""
         lowestItem = item
       end
   end
-  return lowestItem
+  return lowestPrice
 end
